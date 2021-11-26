@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Stochastic Frank-Wolfe"
+title: Stochastic Frank-Wolfe
 event: Montreal Optimization Meet-up
 event_url: https://mtl-mlopt.github.io/
 location: online
@@ -11,7 +11,7 @@ address:
   region:
   postcode:
   country:
-summary: This talk is about our recent Stochastic Frank-Wolfe paper.
+summary: We present a novel Stochastic Frank-Wolfe method for finite-sum optimization.
 abstract:
 
 # Talk start and end times.
