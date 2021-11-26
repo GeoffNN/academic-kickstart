@@ -1,0 +1,45 @@
+
+@article{negiar_stochastic_2020,
+	title = {Stochastic {Frank}-{Wolfe} for {Constrained} {Finite}-{Sum} {Minimization}},
+	copyright = {All rights reserved},
+	url = {http://arxiv.org/abs/2002.11860},
+	abstract = {We propose a novel Stochastic Frank-Wolfe (a.k.a. Conditional Gradient) algorithm with a fixed batch size tailored to the constrained optimization of a finite sum of smooth objectives. The design of our method hinges on a primal-dual interpretation of the Frank-Wolfe algorithm. Recent work to design stochastic variants of the Frank-Wolfe algorithm falls into two categories: algorithms with increasing batch size, and algorithms with a given, constant, batch size. The former have faster convergence rates but are impractical; the latter are practical but slower. The proposed method combines the advantages of both: it converges for unit batch size, and has faster theoretical worst-case rates than previous unit batch size algorithms. Our experiments also show faster empirical convergence than previous unit batch size methods for several tasks. Finally, we construct a stochastic estimator of the Frank-Wolfe gap. It allows us to bound the true Frank-Wolfe gap, which in the convex setting bounds the primal-dual gap in the convex case while in general is a measure of stationarity. Our gap estimator can therefore be used as a practical stopping criterion in all cases.},
+	urldate = {2020-04-14},
+	journal = {arXiv:2002.11860 [cs, math]},
+	author = {Négiar, Geoffrey and Dresdner, Gideon and Tsai, Alicia and Ghaoui, Laurent El and Locatello, Francesco and Pedregosa, Fabian},
+	month = feb,
+	year = {2020},
+	note = {arXiv: 2002.11860},
+	keywords = {Computer Science - Machine Learning, Mathematics - Optimization and Control},
+	file = {arXiv Fulltext PDF:/home/geoff/Zotero/storage/IXVSSRIV/Négiar et al. - 2020 - Stochastic Frank-Wolfe for Constrained Finite-Sum .pdf:application/pdf;arXiv.org Snapshot:/home/geoff/Zotero/storage/DWYSC5JD/2002.html:text/html}
+}
+
+@article{askari_lifted_2018,
+	title = {Lifted {Neural} {Networks}},
+	copyright = {All rights reserved},
+	url = {http://arxiv.org/abs/1805.01532},
+	abstract = {We describe a novel family of models of multi- layer feedforward neural networks in which the activation functions are encoded via penalties in the training problem. Our approach is based on representing a non-decreasing activation function as the argmin of an appropriate convex optimiza- tion problem. The new framework allows for algo- rithms such as block-coordinate descent methods to be applied, in which each step is composed of a simple (no hidden layer) supervised learning problem that is parallelizable across data points and/or layers. Experiments indicate that the pro- posed models provide excellent initial guesses for weights for standard neural networks. In addi- tion, the model provides avenues for interesting extensions, such as robustness against noisy in- puts and optimizing over parameters in activation functions.},
+	urldate = {2020-04-14},
+	journal = {arXiv:1805.01532 [cs, stat]},
+	author = {Askari, Armin and Negiar, Geoffrey and Sambharya, Rajiv and Ghaoui, Laurent El},
+	month = jun,
+	year = {2018},
+	note = {arXiv: 1805.01532},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning},
+	file = {arXiv Fulltext PDF:/home/geoff/Zotero/storage/B9DHCAH6/Askari et al. - 2018 - Lifted Neural Networks.pdf:application/pdf;arXiv.org Snapshot:/home/geoff/Zotero/storage/W4UMITF4/1805.html:text/html}
+}
+
+@article{pedregosa_linearly_2020,
+	title = {Linearly {Convergent} {Frank}-{Wolfe} with {Backtracking} {Line}-{Search}},
+	copyright = {All rights reserved},
+	url = {http://arxiv.org/abs/1806.05123},
+	abstract = {Structured constraints in Machine Learning have recently brought the Frank-Wolfe (FW) family of algorithms back in the spotlight. While the classical FW algorithm has poor local convergence properties, the Away-steps and Pairwise FW variants have emerged as improved variants with faster convergence. However, these improved variants suffer from two practical limitations: they require at each iteration to solve a 1-dimensional minimization problem to set the step-size and also require the Frank-Wolfe linear subproblems to be solved exactly. In this paper, we propose variants of Away-steps and Pairwise FW that lift both restrictions simultaneously. The proposed methods set the step-size based on a sufficient decrease condition, and do not require prior knowledge of the objective. Furthermore, they inherit all the favorable convergence properties of the exact line-search version, including linear convergence for strongly convex functions over polytopes. Benchmarks on different machine learning problems illustrate large performance gains of the proposed variants.},
+	urldate = {2020-04-14},
+	journal = {arXiv:1806.05123 [math]},
+	author = {Pedregosa, Fabian and Negiar, Geoffrey and Askari, Armin and Jaggi, Martin},
+	month = feb,
+	year = {2020},
+	note = {arXiv: 1806.05123},
+	keywords = {Mathematics - Optimization and Control},
+	file = {arXiv Fulltext PDF:/home/geoff/Zotero/storage/9QCJIXXP/Pedregosa et al. - 2020 - Linearly Convergent Frank-Wolfe with Backtracking .pdf:application/pdf;arXiv.org Snapshot:/home/geoff/Zotero/storage/LFWHUG3R/1806.html:text/html}
+}
